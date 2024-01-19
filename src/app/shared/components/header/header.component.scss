@@ -1,0 +1,19 @@
+.inline-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+    .custom-head{
+        .rounded-img{
+            width: 250px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 25%;
+        }
+    }
+    .custom-head-title{
+        h1{
+            font-size: 2rem;
+        }
+    }
+}

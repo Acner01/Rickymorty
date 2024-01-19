@@ -1,0 +1,6 @@
+<ng-container *ngIf="(isReady|async)">
+    <div class="flexcontainer">
+        <app-card [response]="character1"></app-card>
+        <app-card [response]="character2"></app-card>
+    </div>
+</ng-container>
