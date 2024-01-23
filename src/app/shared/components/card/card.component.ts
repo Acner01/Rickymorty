@@ -13,13 +13,7 @@ export class CardComponent implements OnInit {
     currentStatus: 0
   }
 
-  dataSource=[];
-  displayedColumns=[
-    "nombre",
-    "origen",
-    "creadoen",
-    "genero"
-  ];
+  
   constructor() { }
 
   ngOnInit(): void {

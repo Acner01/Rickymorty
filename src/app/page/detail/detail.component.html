@@ -1,6 +1,18 @@
 <ng-container *ngIf="(isReady|async)">
     <div class="flexcontainer">
-        <app-card [response]="character1"></app-card>
+        <div>
+            <app-card [response]="character1"></app-card>
+            <app-table
+            [dataSource]="chrdetail1"
+            [displayedColumns]=columsNames
+            ></app-table>
+        </div>
+        <div>
         <app-card [response]="character2"></app-card>
+        <app-table
+        [dataSource]="chrdetail1"
+        [displayedColumns]=columsNames
+        ></app-table>
+    </div>
     </div>
 </ng-container>

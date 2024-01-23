@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { DetailComponent } from './detail.component';
 import { RouterModule } from '@angular/router';
 import { CardModule } from 'src/app/shared/components/card/card.module';
+import { TableModule } from 'src/app/shared/components/table/table.module';
 
 
 
@@ -13,6 +14,7 @@ import { CardModule } from 'src/app/shared/components/card/card.module';
   imports: [
     CommonModule,
     CardModule,
+    TableModule,
     RouterModule.forChild([{
       path: '', 
       component: DetailComponent
